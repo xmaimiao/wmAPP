@@ -1,0 +1,7 @@
+logout:
+#  - by: xpath
+#    locator: '//ul[@class="setting"]/li[4]//span'
+#    action: wait_click
+  - by: xpath
+    locator: '//*[@class="iconfont icon-tuichudenglu icon-setting-logout"]'
+    action: click

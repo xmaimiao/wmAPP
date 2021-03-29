@@ -1,0 +1,19 @@
+get_supplementarysign_num:
+  - by: xpath
+    locator: '//*[@class="status text-right color-blue"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="status text-right color-blue"]'
+    action: len
+
+
+get_last_supplementarysign_text:
+  - by: xpath
+    locator: '//*[@class="list-content"]/div/div[${supplementarysign_num}]/div[2]/div[2]'
+    action: wait_click
+  - by: xpath
+    locator: '//*[@class="list-content"]/div/div[${supplementarysign_num}]/div[2]/div[2]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="van-toast__text"]'
+    action: text

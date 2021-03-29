@@ -1,0 +1,8 @@
+supplementarysign:
+  - by: xpath
+    locator: '//*[@class="van-field__body"]/textarea'
+    action: send
+    value: ${remark}
+  - by: xpath
+    locator: '//*[@class="btn van-button van-button--default van-button--normal"]'
+    action: click

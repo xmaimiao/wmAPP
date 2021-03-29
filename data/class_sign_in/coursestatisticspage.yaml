@@ -1,0 +1,15 @@
+stu_actual_attendance:
+  - by: xpath
+    locator: '//div[contains(text(),"${staffNo}")]/../../div[2]//span'
+    action: wait
+  - by: xpath
+    locator: '//div[contains(text(),"${staffNo}")]/../../div[2]//span'
+    action: text
+
+goto_student_statistics:
+  - by: xpath
+    locator: '//div[contains(text(),"${staffNo}")]'
+    action: wait_click
+  - by: xpath
+    locator: '//div[contains(text(),"${staffNo}")]'
+    action: click

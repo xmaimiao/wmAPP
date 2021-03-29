@@ -1,0 +1,70 @@
+current_sign_present:
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]//div[@class="color-blue"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]//div[@class="color-blue"]'
+    action: text
+
+
+current_sign_fullattendance:
+ - by: xpath
+   locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]//div[@class="color-black"]'
+   action: wait
+ - by: xpath
+   locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]//div[@class="color-black"]'
+   action: text
+
+current_sign_absent:
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]//div[@class="color-light-red"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]//div[@class="color-light-red"]'
+    action: text
+
+goto_statistics:
+  - by: xpath
+    locator: '//button[@class="btn van-button van-button--default van-button--normal"]'
+    action: wait_click
+  - by: xpath
+    locator: '//button[@class="btn van-button van-button--default van-button--normal"]'
+    action: click
+
+get_room_type:
+  - by: xpath
+    locator: '//div[@class="flex"]//span[@class="m-l-15"]/span'
+    action: wait
+  - by: xpath
+    locator: '//div[@class="flex"]//span[@class="m-l-15"]/span'
+    action: text
+
+goto_course_statistics:
+  - by: xpath
+    locator: '//div[@class="info-title"]'
+    action: wait_click
+  - by: xpath
+    locator: '//div[@class="info-title"]'
+    action: click
+
+goto_supplementarysign:
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]//div[@class="color-light-red"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]//div[@class="color-light-red"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="van-checkbox-group"]//div[@class="van-cell"][1]//i'
+    action: click
+  - by: xpath
+    locator: '//*[@class="btn van-button van-button--default van-button--normal"]'
+    action: click
+
+get_suppl_current_sign_present:
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]//div[@class="color-blue"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="van-tabs__content"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]//div[@class="color-blue"]'
+    action: text

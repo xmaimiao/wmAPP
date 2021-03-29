@@ -1,0 +1,33 @@
+question:
+  -
+    by: xpath
+    locator: '//span[contains(text(),"在家辦工")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[contains(text(),"澳門")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[contains(text(),"37度以下")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[contains(text(),"*4、身體")]/../../div[@class="van-cell__value van-field__value"]//span[contains(text(),"沒有")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[contains(text(),"*5、同住")]/../../div[@class="van-cell__value van-field__value"]//span[contains(text(),"沒有")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[contains(text(),"*6、昨天")]/../../div[@class="van-cell__value van-field__value"]//span[contains(text(),"沒有")]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//span[@class="van-checkbox__label"]/../div'
+    action: click
+  -
+    by: xpath
+    locator: '//*[contains(@class,"van-button--block")]'
+    action: click

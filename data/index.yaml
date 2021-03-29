@@ -1,0 +1,9 @@
+index:
+  -
+    by: xpath
+    locator: '//*[@resource-id="cn.doocom.WeMustDEV:id/btn_sure"]'
+    action: wait_click
+  -
+    by: xpath
+    locator: '//*[@resource-id="cn.doocom.WeMustDEV:id/btn_sure"]'
+    action: click

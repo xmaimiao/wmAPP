@@ -1,0 +1,31 @@
+username:
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="text"]'
+    action: click
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="text"]'
+    action: clear
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="text"]'
+    action: send
+    value: ${user}
+
+password:
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="text"]'
+    action: click
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="password"]'
+    action: clear
+  -
+    by: xpath
+    locator: '//*[@class="mui-input-clear" and @type="password"]'
+    action: send
+    value: ${psd}
+
+

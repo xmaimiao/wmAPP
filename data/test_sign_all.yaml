@@ -1,0 +1,6 @@
+test_get_room_type:
+  - {username: skmondal,password: wemust123,signin_x: 290,signin_y: 803,expect: B401}
+  - {username: skmondal,password: wemust123,signin_x: 290,signin_y: 803,expect: B401}
+  - {username: skmondal,password: wemust123,signin_x: 290,signin_y: 803,expect: B401}
+test_supplementarysign:
+  - {username: ypkan,password: wemust123,signin_x: 290,signin_y: 803,remark: APP補簽,expect: 1}

@@ -1,0 +1,13 @@
+fullattendance: {signin_x: 478,signin_y: 823,expect: 3}
+#fullattendance: {application: 上課簽到,expect: 16}
+present: {signin_x: 478,signin_y: 823,expect: 0}
+absent: {signin_x: 478,signin_y: 823,expect: 3}
+get_room_type: {signin_x: 478,signin_y: 823,expect: 雲課堂}
+student_actual_attendance: {signin_x: 478,signin_y: 823,staffNo: 1709853F-B011-0202,expect: 0}
+student_supplementarysign_num: {signin_x: 478,signin_y: 823,staffNo: 1709853F-B011-0202,expect: 0}
+student_the_supplementarysign_text:
+  {signin_x: 290,signin_y: 803,staffNo: 17098537-C111-0048,supplementarysign_num: last() ,expect: APP補簽}
+student_the_supplementarysign_num:
+  {signin_x: 290,signin_y: 803,staffNo: 17098537-C111-0048 ,expect: 1}
+supplementarysign: {signin_x: 290,signin_y: 803,remark: APP補簽,expect: 8}
+test_statistics_search: {signin_x: 477,signin_y: 820,value: 南拳,expect: 3}

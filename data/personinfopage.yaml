@@ -1,0 +1,9 @@
+goto_setting:
+  - by: xpath
+    locator: '//*[@class="iconfont icon-wode-shezhi"]/..//span'
+    action: wait_display
+  - by: xpath
+#    locator: '//*[@class="iconfont icon-wode-shezhi"]/../i[2]'
+#    locator: '//*[@class="iconfont icon-wode-shezhi"]/..//span'
+    locator: '//*[contains(text(),"設置")]'
+    action: click

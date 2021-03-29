@@ -1,0 +1,31 @@
+goto_course_statistics_scoll:
+  - by: xpath
+    locator: '//div[contains(text(),"${course_code}")]'
+    action: wait_click
+  - by: xpath
+    locator: '//div[contains(text(),"${course_code}")]'
+    action: click
+
+
+goto_course_statistics:
+  - by: xpath
+    locator: '//div[contains(text(),"${course_code}")]'
+    action: wait_click
+  - by: xpath
+    locator: '//div[contains(text(),"${course_code}")]'
+    action: click
+
+search_courses:
+  - by: xpath
+    locator: '//*[@class="van-field__control"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="van-field__control"]'
+    action: send
+    value: ${value}
+  - by: xpath
+    locator: '//i[@class="van-icon van-icon-search"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="title"]'
+    action: len
